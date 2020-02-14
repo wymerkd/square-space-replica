@@ -21,8 +21,43 @@
 .slogan {
   position: absolute;
   top: 25%;
-  left: 20%;
+  left: 24%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   z-index: 2;
+}
+
+.secondHeader {
+  position: absolute;
+  top: 60.5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.eTeam {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 38px;
+  font-family: Helvetica;
+}
+
+.team-member-portrait {
+width: 28.88888889%;
+margin-bottom: 0;
+margin-right: 6.66666667%;
+}
+
+.team-member {
+display: flex;
+}
+
+.team-member-text {
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  display: block;
+  flex-shrink: 1;
 }
